@@ -20,7 +20,9 @@ DB_PASSWORD=database_password
 Running the `please` commands without any arguments will give you interactive prompts to help you import a piece of content.
 
 ```
-php please importer:import [<id>] [<folder>] [<count>]
+php please importer:import [<id>] [<folder>]
+php please importer:import_span [<folder>] [<first>] [<last>]
+php please importer:import_all [<folder>] 
 ```
 
 Thanks to the Gentlemen for the Overload plugin which got me started.
